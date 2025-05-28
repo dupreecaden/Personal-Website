@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Projects | Caden Dupree</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header>
+    <h1>Personal Projects</h1>
+    <p>A collection of my recent work.</p>
+  </header>
+
+<nav>
+  <ul>
+    <li><a href="home.html">Home</a></li>
+    <li><a href="#dropdown-portfolio">Portfolio</a></li>
+    <li><a href="#dropdown-pizzeria">Pizzeria App</a></li>
+    <li><a href="#dropdown-pantry">Pantry Pal</a></li>
+    <li><a href="contact.html">Contact</a></li>
+  </ul>
+</nav>
+
+  <main class="dropdown-stack">
+
+<div class="dropdown-tile full-width">
+  <input type="checkbox" id="dropdown-pizzeria" />
+  <label for="dropdown-pizzeria"><span>Pizzeria Reservation System</span></label>
+  <div class="slide">
+    <div class="project-card split-layout">
+
+      <div class="project-left">
+        <img src="Pizza_logo.png" alt="Pizzeria GUI Screenshot" />
+        <p>
+          A desktop reservation system for a pizzeria, built with Python and Tkinter. Customers can book reservation times, choose party sizes, and staff can view real-time reservation analytics. The system utilizes object-oriented programming, JSON for data storage, and environment variables via a .env file for secure admin access.
+        </p>
+        <p><strong>GitHub:</strong> <a href="https://github.com/dupreecaden/Pizzeria-Waitlist" target="_blank">View Repo</a></p>
+      </div>
+      <div class="project-right">
+        <div class="video-wrapper">
+          <iframe 
+            src="https://www.youtube.com/embed/rb7HtUHWK5Y" 
+            title="Pizzeria GUI Demo" 
+            frameborder="0" 
+            allowfullscreen>
+          </iframe>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+<div class="dropdown-tile full-width">
+  <input type="checkbox" id="dropdown-pantry" />
+  <label for="dropdown-pantry"><span>Pantry Pal</span></label>
+  <div class="slide">
+    <div class="project-card split-layout">
+      <div class="project-left">
+        <img src="Banner_logo.png" alt="Pantry Pal Screenshot" />
+        <p>
+          Pantry Pal is a Python-based GUI app that lets you track pantry items and fetch recipes using Spoonacular. Recipes are sorted based on how many ingredients you're missing, and everything is visualized neatly in categories.
+        </p>
+        <p><strong>GitHub:</strong> <a href="https://github.com/dupreecaden/pantry-pal" target="_blank">View Repo</a></p>
+      </div>
+      <div class="project-right">
+        <div class="video-wrapper">
+          <iframe 
+            src="https://www.youtube.com/embed/qoLFvv28Vp4" 
+            title="Pantry Pal Demo" 
+            frameborder="0" 
+            allowfullscreen>
+          </iframe>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+<div class="dropdown-tile full-width">
+  <input type="checkbox" id="dropdown-portfolio" />
+  <label for="dropdown-portfolio"><span>Portfolio Website</span></label>
+  <div class="slide">
+    <div class="project-card split-layout">
+      <div class="project-left">
+        <img src="websitelogo.png" alt="Portfolio Banner" class="banner-logo" />
+        <p>
+          This portfolio was built using HTML and CSS to highlight my projects and skills. It features a responsive layout, interactive dropdown sections, and a streamlined UI. The codebase is lightweight, semantic, and structured for easy scalability and readability.
+        </p>
+        <p><strong>Resume:</strong> <a href="Resume.pdf" download>Download PDF</a></p>
+      </div>
+    </div>
+  </div>
+</div>
+
+  </main>
+
+  <footer>
+    <p>&copy; 2025 Caden Dupree</p>
+  </footer>
+</body>
+</html>
+
