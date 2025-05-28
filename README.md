@@ -3,7 +3,7 @@
 This is my personal portfolio website showcasing my technical skills, projects, and background in cloud security, system automation, and full-stack development.
 
 ## Live Site
-Access the portfolio here: [https://yourusername.github.io/portfolio-site/](https://dupreecaden.github.io/Personal-Website/)  
+Access the portfolio here: [https://dupreecaden.github.io/Personal-Website/](https://dupreecaden.github.io/Personal-Website/)  
 > Note: The site begins with a USB animation intro (`index.html`) and transitions to the main content on `home.html`.
 
 ## Technologies Used
